@@ -20,5 +20,8 @@
     "mongoos": "^0.0.1-security",
     "mongoose": "^7.3.2",
     "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">14 <15"
   }
 }
