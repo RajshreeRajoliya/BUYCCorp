@@ -70,6 +70,19 @@ const postInventory = async (req, res) => {
       res.status(500).send({ msg: error.message });
     }
   }
+
+
+  const getinventoryById = async (req, res) => {
+    const { id } = req.params;
+  
+    try {
+      let deals = await InventoryModel.findById(id);
+      res.status(200).send({ deals });
+    } catch (error) {
+      res.status(500).send({ msg: error.message });
+    }
+  }
+  
   
 
-  module.exports = { postInventory , getInventory }
+  module.exports = { postInventory , getInventory ,getinventoryById}
