@@ -2,6 +2,8 @@ const express = require("express");
 const { Connection } = require("./config/db.js");
 const dotenv = require("dotenv").config();
 const {userRouter} = require("./router/userRoute.js");
+const {invetoryRouter} = require("./router/inventoryRouter.js")
+const {oemSpecsRouter} = require("./router/oemRouter.js");
 
 const cors = require("cors");
 const app = express();
@@ -17,6 +19,8 @@ app.use(express.json());
 //this index.js file is used to start the server and and so we that we can connect to database and get data
 
 app.use('/user',userRouter)
+app.use('/inventory',invetoryRouter)
+app.use('/oem', oemSpecsRouter);
 
 const PORT = process.env.PORT || 8080;
 
