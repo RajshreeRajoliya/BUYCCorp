@@ -16,8 +16,8 @@ const userModelSchema = mongoose.Schema({
 },
   date: 
   { 
-    type: String,
-    required: true  
+    type: Date,
+    require: true
 },
   password: 
   {
