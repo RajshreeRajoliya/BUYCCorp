@@ -2,7 +2,7 @@ const express = require("express");
 
 
 // const { Logcheck } = require("../middleware/Logcheck.js");
-const { signupUser , loginUser } = require("../controller/userController.js")
+const { signupUser , loginUser , getUserbyID , updateUser } = require("../controller/userController.js")
 
 const userRouter = express.Router();
 
@@ -11,5 +11,9 @@ const userRouter = express.Router();
 userRouter.post("/register",signupUser);
 
 userRouter.post("/login",loginUser);
+
+userRouter.get("/:id", getUserbyID);
+
+userRouter.patch("/:id", updateUser);
 
 module.exports = { userRouter };
