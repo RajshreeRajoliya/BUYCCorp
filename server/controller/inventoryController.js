@@ -92,8 +92,15 @@ const postInventory = async (req, res) => {
   }
 
 
+  const deleteInventory = async (req, res) => {
+    const { id } = req.params;
+  
+    try {
+      await InventoryModel.findByIdAndDelete(id);
+      res.status(200).send({ msg: "Deleted Deal Success" });
+    } catch (error) {
+      res.status(500).send({ msg: error.message });
+    }
+  }
 
-
-
-
-  module.exports = { postInventory , getInventory ,getinventoryById, updateInventory}
+  module.exports = { postInventory , getInventory ,getinventoryById, updateInventory, deleteInventory}
