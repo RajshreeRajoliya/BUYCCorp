@@ -10,8 +10,6 @@ const postInventory = async (req, res) => {
     }
   }
 
-
-
   const getInventory = async (req, res) => {
     // const search="Honda"
     const { order, filter, search } = req.query;
@@ -71,7 +69,6 @@ const postInventory = async (req, res) => {
     }
   }
 
-
   const getinventoryById = async (req, res) => {
     const { id } = req.params;
   
@@ -83,6 +80,20 @@ const postInventory = async (req, res) => {
     }
   }
   
-  
+  const updateInventory = async (req, res) => {
+    const { id } = req.params;
+   
+    try {
+      await InventoryModel.findByIdAndUpdate(id, req.body);
+      res.status(200).send({ msg: "Updated Deal Success" });
+    } catch (error) {
+      res.status(500).send({ msg: error.message });
+    }
+  }
 
-  module.exports = { postInventory , getInventory ,getinventoryById}
+
+
+
+
+
+  module.exports = { postInventory , getInventory ,getinventoryById, updateInventory}
