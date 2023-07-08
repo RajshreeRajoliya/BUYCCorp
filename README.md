@@ -60,10 +60,11 @@ This is the screenshot of Sign up page or create account page of our  website.
 
 This is the screenshot of Login page. Once the user has completed the account creation they are prompted to use their details to login.
 
-### 4. Navbar
-![navbar](https://github.com/RajshreeRajoliya/BlueflyProject/blob/Rajshree/img%20for%20readme/img_navbar.jpeg)
+### 4. Search
 
-This shows the navbar of our clone website.
+![Searchattryb](https://github.com/RajshreeRajoliya/BUYCCorp/assets/113670900/27ec9d47-51f8-4a2d-974b-3539c46c1f86)
+
+This shows the searchbar of our website.
 
 ### 5. Products page
 ![products-page](https://github.com/RajshreeRajoliya/BlueflyProject/blob/Rajshree/img%20for%20readme/products.jpeg)
