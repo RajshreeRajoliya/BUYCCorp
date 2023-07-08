@@ -49,7 +49,8 @@ It shows the landing page of the our clone website.
 
 ### 2. Sign-up page
 
-![sign-up-page](https://github.com/RajshreeRajoliya/BlueflyProject/blob/Rajshree/img%20for%20readme/sign%20up.jpeg)
+![attrybSignup](https://github.com/RajshreeRajoliya/BUYCCorp/assets/113670900/e1513e44-b47b-4af3-bf3e-646136bc9c79)
+
 
 This is the screenshot of Sign up page or create account page of our clone website.
 
