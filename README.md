@@ -45,17 +45,18 @@ Original Paint, Number of accidents reported, Number of previous buyers, Registr
 
 This is the screenshot of the whole page length taken with the help of google-chrome devtools.
 
-It shows the landing page of the our clone website.
+It shows the landing page of the our website.
 
 ### 2. Sign-up page
 
 ![attrybSignup](https://github.com/RajshreeRajoliya/BUYCCorp/assets/113670900/e1513e44-b47b-4af3-bf3e-646136bc9c79)
 
 
-This is the screenshot of Sign up page or create account page of our clone website.
+This is the screenshot of Sign up page or create account page of our  website.
 
 ### 3.Login page
-![sign-in-page](https://github.com/RajshreeRajoliya/BlueflyProject/blob/Rajshree/img%20for%20readme/login.jpeg)
+
+![attrybLogin](https://github.com/RajshreeRajoliya/BUYCCorp/assets/113670900/33b863dd-7ac1-4e7f-829c-f3b80883050e)
 
 This is the screenshot of Login page. Once the user has completed the account creation they are prompted to use their details to login.
 
