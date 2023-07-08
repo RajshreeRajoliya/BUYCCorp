@@ -40,7 +40,8 @@ Original Paint, Number of accidents reported, Number of previous buyers, Registr
 
 ### 1. The home page
 
-![homepage](https://github.com/RajshreeRajoliya/BlueflyProject/blob/Rajshree/img%20for%20readme/whole-page.jpeg)
+![attrybHome](https://github.com/RajshreeRajoliya/BUYCCorp/assets/113670900/8c07b42f-17ff-4d18-b213-3944bca8575d)
+
 
 This is the screenshot of the whole page length taken with the help of google-chrome devtools.
 
