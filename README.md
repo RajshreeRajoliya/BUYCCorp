@@ -73,5 +73,5 @@ This shows the searchbar of our website.
 This is the Add Deal page. Where user can add car accordingly and add information for other user convienence.
 ## Feedback
 
-If you have any feedback, please reach out to us.
+If you have any feedback, please reach out to me.
 
